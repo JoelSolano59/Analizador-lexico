@@ -1,0 +1,17 @@
+# Comentario 1
+def funcion():
+  a = 1
+  b = 2
+  if a > b:
+    return a
+  elif b > a:
+    return b
+  elif a == b:
+    return a
+  else:
+    return None
+
+# Comentario 2
+def main():
+  resultado = funcion()
+  print(resultado)
